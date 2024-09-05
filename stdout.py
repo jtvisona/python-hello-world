@@ -3,6 +3,10 @@ msg = "This is a sample message.\n"
 horizontal_rule = "--------\n"
 hr = horizontal_rule # alias
 
+"""
+This is a block comment.
+"""
+
 # stdout and concat
 print(hr + msg + hr)
 
