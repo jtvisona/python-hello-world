@@ -1,0 +1,23 @@
+1	# Note the implicit type declarations
+2	def sum1(addened,adder):
+3	    return addened+adder
+4	
+5	# Note this has explicit type declarations
+6	def sum2( addened:int, adder:int ) -> int:
+7	    return addened + adder
+8	
+9	# Note the return of a pair
+10	def swap(value1,value2):
+11	    return value2,value1
+12	
+13	def main():
+14	    value1 = 1
+15	    value2 = 100
+16	    print( f"{value1}, {value2} = ", sum1( value1, value2 ) )
+17	    print( f"{value1}, {value2} = ", sum2( value1, value2 ) )
+18	    value1,value2 = swap( value1, value2 ) # written to make return explicit
+19	    print( f"{value1}, {value2} = ", value1, value2 )
+20	
+21	# if this module is called first, call the main function
+22	if __name__ == "__main__":
+23	    main()
