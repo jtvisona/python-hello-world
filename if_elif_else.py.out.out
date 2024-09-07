@@ -1,0 +1,36 @@
+### Source
+```
+1	
+2	# import <module> as alias
+3	# alias.f()
+4	
+5	flagT = True
+6	flagF = False
+7	
+8	for each in range( 15 ):
+9	    print( f"{each}: ", end="" )
+10	    if each < 6:
+11	        print( f"*{each}*", end=" " )
+12	    elif each == 6:
+13	        pass
+14	    elif each == 7:
+15	        print( f"*{each}*", end=" " )
+16	    elif each == 8:
+17	        continue
+18	    elif each > 8 and each < 11:
+19	        print( f"*{each}*", end=" " )
+20	    else:
+21	        break
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.
