@@ -14,11 +14,3 @@ for each in range(10,101,5):
     if( (each+5)%10 == 0 ):
         print(each, end=" ")
 print()
-
-# import <module> as alias
-# alias.f()
-
-#True, False
-#break, continue, pass
-
-
