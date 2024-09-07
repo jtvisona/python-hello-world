@@ -1,3 +1,5 @@
+### Source
+```
 1	# Create a number at random
 2	import random
 3	temp_number = random.randint( 1, 1000 )
@@ -11,3 +13,16 @@
 11	else:
 12	    print( "(100,PosInf)" )
 13	
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.

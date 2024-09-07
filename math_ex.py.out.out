@@ -1,6 +1,21 @@
+### Source
+```
 1	a = 75
 2	b = 20
 3	print( f'{a}/{b} =', a/b )
 4	print( f'{a}//{b} =', a//b )
 5	print( f'{a}%{b} =', a%b )
 6	print( 'round(22/7,4) =', round( 22/7,4 ) )
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.

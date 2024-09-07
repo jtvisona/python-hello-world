@@ -1,3 +1,5 @@
+### Source
+```
 1	# strings
 2	msg = "This is a sample message.\n"
 3	horizontal_rule = "--------\n"
@@ -16,3 +18,16 @@
 16	# use the length function to measure strings
 17	print()
 18	print( "len(hr) = ", hr )
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.

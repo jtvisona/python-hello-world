@@ -1,3 +1,5 @@
+### Source
+```
 1	import locale
 2	
 3	# set the locale for use in currency formatting
@@ -23,3 +25,16 @@
 23	    print()
 24	
 25	print("Thanks!")
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.

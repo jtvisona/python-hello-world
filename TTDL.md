@@ -15,6 +15,6 @@ phase will be to incorporate LLM technology so that prompts and results can be s
 
 ### Tasks
 
-- [ ] Automate the generation of md for wiki by adding code embedding and section formatting for samples
-
+- [x] Automate the generation of md for wiki by adding code embedding and section formatting for samples
+- [ ] Specify list of files to be numbered, embedded in explanatory text, and appended to a single file
 

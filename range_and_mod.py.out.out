@@ -1,3 +1,5 @@
+### Source
+```
 1	
 2	# 10 to 100 by 5's
 3	for each in range(10,101,5):
@@ -22,3 +24,16 @@
 22	#break, continue, pass
 23	
 24	
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.

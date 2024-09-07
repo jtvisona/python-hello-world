@@ -1,14 +1,14 @@
 # Note the implicit type declarations
-def sum1(addened,adder):
-    return addened+adder
+def sum1( addened, adder ):
+    return addened + adder
 
 # Note this has explicit type declarations
 def sum2( addened:int, adder:int ) -> int:
     return addened + adder
 
 # Note the return of a pair
-def swap(value1,value2):
-    return value2,value1
+def swap( value1, value2 ):
+    return value2, value1
 
 def main():
     value1 = 1
