@@ -1,3 +1,4 @@
+```
 1	# Note the implicit type declarations
 2	def sum1(addened,adder):
 3	    return addened+adder
@@ -21,3 +22,16 @@
 21	# if this module is called first, call the main function
 22	if __name__ == "__main__":
 23	    main()
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
+Embedded lines in md.
