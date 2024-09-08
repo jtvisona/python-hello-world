@@ -84,8 +84,6 @@ def write_movies(movies):
         print(type(e), e)
         exit_program()
 
-.lower(), .upper()
-
 from decimal import Decimal
 import locale as lc
 future_value = future_value.quantize(Decimal("1.00"))
@@ -94,14 +92,8 @@ lc.setlocale(lc.LC_ALL, "en_US")
 monthly_investment = lc.currency(monthly_investment, grouping=True)
 future_value = lc.currency(future_value, grouping=True)
 
-<string>.strip()
-.left()
-.right()
-
 index1 = full_name.find(" ")
 first_name = full_name[:index1]
-
-while True:
 
 char.isdigit():
 char.islower():
