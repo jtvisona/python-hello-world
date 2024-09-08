@@ -1,5 +1,4 @@
-Ctrl+C to halt execution!
-Ctrl+C to halt execution!
-Ctrl+C to halt execution!
+Ctrl+C to halt execution of infinite loop!
+Ctrl+C to halt execution of infinite loop!
+Ctrl+C to halt execution of infinite loop!
 ...
-RecursionError: maximum recursion depth exceeded

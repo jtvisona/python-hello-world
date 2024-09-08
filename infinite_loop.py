@@ -1,6 +1,4 @@
 # This results in infinte recursion.
-def call_self():
-    print( "Ctrl+C to halt execution!" )
-    call_self()
+while True:
+    print( "Ctrl+C to halt execution of infinite loop!" )
 
-call_self()
