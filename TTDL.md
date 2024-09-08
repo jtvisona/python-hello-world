@@ -51,9 +51,6 @@ def read_movies():
 
     movies.pop(index - 1)
 
-import sys
-sys.exit()
-
 with open(FILENAME, newline="") as file
 
     except FileNotFoundError as e:
