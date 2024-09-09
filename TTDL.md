@@ -95,12 +95,7 @@ future_value = lc.currency(future_value, grouping=True)
 index1 = full_name.find(" ")
 first_name = full_name[:index1]
 
-char.isdigit():
-char.islower():
-char.isupper():
-
 word_with_spaces = " ".join(word)
-
 words = text.split(" ")
 
 from datetime import datetime, timedelta

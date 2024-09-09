@@ -1,0 +1,14 @@
+'   This is a string: TESTING.   '
+'   THIS IS A STRING: TESTING.   '
+'   this is a string: testing.   '
+'This is a string: TESTING.   '
+'   This is a string: TESTING.'
+'This is a string: TESTING.'
+'41234' is a digit
+'41234' is decimal
+'apples' is alphabetic
+'abc123' is alphanumeric
+'apples' is lowercase
+'ZEBRA' is uppercase
+'               ' is all whitespace
+'abc123         ZEBRA' is all ASCII characters
