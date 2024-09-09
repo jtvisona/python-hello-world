@@ -1,0 +1,4 @@
+Unsorted:  apples carrots eggplants bananas 
+Sorted:  1:apples 2:bananas 3:carrots 4:eggplants
+Indexed: 1 : one 2 : two 3 : three 4 : four 5 : five
+Printed list: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]

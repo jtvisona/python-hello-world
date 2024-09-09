@@ -128,7 +128,7 @@ print(f"Total price:     {locale.currency(total_cost)}")
             {"author" : "Herman Melville",
              "pubyear" : "1851"},
     }
-
+    
 codes = list(countries.keys())
 
 chapter 14-18
