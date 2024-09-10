@@ -132,3 +132,18 @@ print(f"Total price:     {locale.currency(total_cost)}")
 codes = list(countries.keys())
 
 chapter 14-18
+
+my_list = [3, 1, 4, 1, 5, 9]
+sorted_list = sorted(my_list, reverse=True)
+print(sorted_list)  # Output: [9, 5, 4, 3, 1, 1]
+
+my_list = ['apple', 'banana', 'cherry', 'date']
+my_list.sort(key=len)
+print(my_list)  # Output: ['date', 'apple', 'banana', 'cherry']
+
+my_list = ['apple', 'banana', 'cherry', 'date']
+sorted_list = sorted(my_list, key=len)
+print(sorted_list)  # Output: ['date', 'apple', 'banana', 'cherry']
+
+C:\Users\17082\AppData\Local\Programs\Python\Python312
+setup script to default with menu

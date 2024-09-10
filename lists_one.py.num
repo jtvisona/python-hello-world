@@ -1,0 +1,33 @@
+1	# Four ways to iterate through lists
+2	
+3	list_of_foods = [ "apples", "carrots", "eggplants", "bananas" ]
+4	print( "Unsorted: ", end=" " )
+5	for each_food in list_of_foods:
+6	    print( each_food, end=" " )
+7	print()
+8	
+9	list_of_foods.sort()
+10	print( "Sorted: ", end=" " )
+11	for index, each_food in enumerate(list_of_foods,start=1): # Enumerate creates KVPs of type <int,type>
+12	    print( f"{index}:{each_food}", end=" " )
+13	print()
+14	
+15	list_of_digits = [ "one", "two", "three", "four", "five" ]
+16	index = 0
+17	print( "Indexed:", end=" " )
+18	while index < len( list_of_digits ):
+19	    print( index+1, ":", list_of_digits[index], end=" " ) # Note that enumerate is not used and index must be manually created
+20	    index += 1
+21	print()
+22	
+23	list_of_ints = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+24	print( "Printed list:", end=" " )
+25	perfect_squares = [ integer**2 for integer in list_of_ints ] # Uses a comprehension
+26	print( perfect_squares )
+27	
+28	
+29	
+30	
+31	
+32	
+33	

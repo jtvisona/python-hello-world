@@ -1,0 +1,20 @@
+### Source
+```
+1	# This results in infinte recursion.
+2	def call_self():
+3	    print( "Ctrl+C to halt execution of infinite recursion!" )
+4	    call_self()
+5	
+6	call_self()
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---

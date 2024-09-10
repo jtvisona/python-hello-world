@@ -1,0 +1,18 @@
+### Source
+```
+1	# This results in infinte recursion.
+2	while True:
+3	    print( "Ctrl+C to halt execution of infinite loop!" )
+4	
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---

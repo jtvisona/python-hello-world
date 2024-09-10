@@ -13,7 +13,7 @@ def read_lines( filename, lines ):
 
 def write_lines( filename, lines ):
     lines_counter = 0
-    output_file = filename + ".out"
+    output_file = filename + ".num"
     with open( output_file, "w" ) as file:
         for line in lines:
             file.write( f"{line}\n" )
@@ -38,13 +38,16 @@ def print_lines ( lines ):
         lines_counter += 1
     print( f"Printed {lines_counter} lines to stdout." )
 
-def main():
-    file_lines = []
+def number_file():
+    lines = []
     filename = input( "Name of file? " )
-    read_lines( filename, file_lines )
-    file_lines = number_lines( file_lines )
-    print_lines( file_lines )
-    write_lines( filename, file_lines )
+    read_lines( filename, lines )
+    lines = number_lines( lines )
+    print_lines( lines )
+    write_lines( filename, lines )
+
+def main():
+    number_file()
 
 # if this module is called first, call the main function
 if __name__ == "__main__":

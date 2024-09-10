@@ -13,7 +13,7 @@ def read_lines( filename, lines ):
 
 def write_lines( filename, lines ):
     lines_counter = 0
-    output_file = filename + ".out"
+    output_file = filename + ".emb"
     with open( output_file, "w" ) as file:
         for line in lines:
             file.write( f"{line}\n" )
@@ -38,7 +38,6 @@ def number_lines( lines ):
     lines2.append( "### Details" )
     lines2.append( "*" )
     lines2.append( "---" )
-    lines2.append( f"Embedded lines in md." )
     return lines2
 
 def print_lines ( lines ):

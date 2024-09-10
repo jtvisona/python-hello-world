@@ -1,0 +1,45 @@
+### Source
+```
+1	# Demonstrate basic string functionality
+2	temp_string = "   This is a string: TESTING.   "
+3	temp_int = "41234"
+4	temp_lower = "apples"
+5	temp_upper = "ZEBRA"
+6	temp_alphanumeric = "abc123"
+7	temp_allwhitespace = "\t \t"
+8	
+9	print( f"'{temp_string}'" )            # As is
+10	print( f"'{temp_string.upper()}'" )    # All to uppercase
+11	print( f"'{temp_string.lower()}'" )    # All to lowercase
+12	print ( f"'{temp_string.lstrip()}'" )    # Remove preceding whitespace
+13	print ( f"'{temp_string.rstrip()}'" )   # Remove trailing whitespace
+14	print( f"'{temp_string.strip()}'" )    # Remove preceding and trailing whitespace
+15	
+16	if( temp_int.isdigit ):    # only characters 0-9
+17	    print( f"'{temp_int}' is a digit" )
+18	if( temp_int.isdecimal ):  # digits plus some other Unicode values
+19	    print( f"'{temp_int}' is decimal" )
+20	if( temp_lower.isalpha ):  # alphabetic characters
+21	    print( f"'{temp_lower}' is alphabetic" )
+22	if( temp_alphanumeric.isalnum ): # alphanumeric characters
+23	    print( f"'{temp_alphanumeric}' is alphanumeric" )
+24	if( temp_lower.islower ):    # lowercase characters
+25	    print( f"'{temp_lower}' is lowercase" )
+26	if( temp_upper.isupper ):    # uppercase characters
+27	    print( f"'{temp_upper}' is uppercase" )
+28	if( temp_allwhitespace.isspace ):      # whitespace only
+29	    print( f"'{temp_allwhitespace}' is all whitespace" )
+30	if( temp_allwhitespace.isascii ):      # ASCII charactersss
+31	    print( f"'{temp_alphanumeric}{temp_allwhitespace}{temp_upper}' is all ASCII characters" )
+```
+
+### Output
+```
+
+
+```
+### Explanation
+
+### Details
+*
+---
