@@ -1,0 +1,3 @@
+Edgar Djikstra:edjikstra@python.org:1.555.123.4567
+Ned Block:nblock@python.com:1.555.312.2312
+Max Planck:mplanck@python.com:1.555.7668

@@ -1,0 +1,7 @@
+Tip Calculator
+
+Cost of meal: 11.35
+Tip percent: 20
+
+Tip amount: 2.27
+Total amount: 13.62

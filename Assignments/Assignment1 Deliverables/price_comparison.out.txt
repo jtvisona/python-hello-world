@@ -1,0 +1,7 @@
+Price Comparison
+
+Price of 64 oz size: 1.15
+Price of 32 oz size: 1.00
+
+Price per oz (64 oz): 0.02
+Price per oz (32 oz): 0.03

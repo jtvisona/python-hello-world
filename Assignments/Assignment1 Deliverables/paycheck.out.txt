@@ -1,0 +1,6 @@
+Hours Worked:           45
+Hourly Pay Rate:        12.50
+Gross Pay:               562.5
+Tax Rate:                18%
+Tax Amount:              101.25
+Take Home Pay:           461.25

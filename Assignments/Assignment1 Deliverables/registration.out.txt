@@ -1,0 +1,9 @@
+Registration Form
+
+First name:     Jonathan
+Last name:      Visona
+Birth year:     1975
+
+Welcome Jonathan!
+Your registration is complete.
+Your temporary password is: Jonathan*Visona1975

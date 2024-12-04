@@ -1,0 +1,8 @@
+Travel Time Calculator
+
+Enter miles: 125
+Enter miles per hour: 10
+
+Estimated travel time
+Hours: 12
+Minutes: 30
