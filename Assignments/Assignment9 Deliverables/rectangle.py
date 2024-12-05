@@ -1,3 +1,10 @@
+"""
+Jonathan Visona
+CPSC6210-02-2024FA
+Assignment 9
+rectangle.py
+"""
+
 def draw_rectangle( height, width ):
     print( '*' + ' *' * width )
     # use anon variable since just creating ASCII graphics
@@ -6,14 +13,13 @@ def draw_rectangle( height, width ):
     print( '*' + ' *' * width )
 
 def rectangle_calculator():
-    height = int( input("Height: " ) )
+    height = int( input( "Height: " ) )
     width = int( input( "Width: " ) )
     perimeter = 2 * ( height + width )
     area = height * width
     print( f"Perimeter: {perimeter}" )
     print( f"Area: {area}" )
     draw_rectangle( height, width )
-    cont = input( "Continue? (y/n): " )
 
 def main():
     # continue to loop until user finished
